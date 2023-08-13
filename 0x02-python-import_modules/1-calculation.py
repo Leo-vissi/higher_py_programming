@@ -3,7 +3,7 @@
 a, b = 10, 5
 
 if __name__ == "__main__":
-    from add_0 import add
+    from add_0 import add, sub, mul, div
 
 #this code for calculat the value a and b in stor add, sub, mul, div 
 
