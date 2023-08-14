@@ -3,19 +3,10 @@
 if __name__ == "__main__":
     from calculator_1 import add, sub, mul, div
 
-a = 10
-b = 5
+    a = 10
+    b = 5
 
-#this code for calculat the value a and b in stor add, sub, mul, div
-
-add(a, b) == a + b
-sub(a, b) == a - b
-mul(a, b) == a * b
-div(a, b) == a / b
-
-# this part for print the stor in func calculat
-
-print("{} + {} = {}".format(a, b, add(a, b)))
-print("{} - {} = {}".format(a, b, sub(a, b)))
-print("{} * {} = {}".format(a, b, mul(a, b)))
-print("{} / {} = {}".format(a, b, div(a, b)))
+    print('{} + {} = {}'.format(a, b, (add(a, b))))
+    print('{} - {} = {}'.format(a, b, (sub(a, b))))
+    print('{} * {} = {}'.format(a, b, (mul(a, b))))
+    print('{} / {} = {}'.format(a, b, (div(a, b))))
